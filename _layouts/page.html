@@ -6,43 +6,25 @@
     <link rel="stylesheet" type="text/css" href="{{ "/files/css/bootstrap.min.css" | relative_url }}" />
     <link rel="stylesheet" type="text/css" href="{{ "/files/css/style.css" | relative_url }}" />
     <script src="{{ "/files/js/jquery.js" | relative_url }}"></script>
-    <script src="{{ "/files/js/d3.js" | relative_url }}"></script>
-    <script src="{{ "/files/js/dateformat.js" | relative_url }}"></script>
     <script src="{{ "/files/js/handlebars.js" | relative_url }}"></script>
     <script src="{{ "/files/js/underscore.js" | relative_url }}"></script>
     <script src="{{ "/files/js/bootstrap.min.js" | relative_url }}"></script>
-    <script src="{{ "/files/js/util.js" | relative_url }}"></script>
   </head>
 <body>
 
+{% include header.html %}
 
-{{header}}
 
-<div class="row navbar">
-  <div class="col-md-1"></div>
-  <div class="col-md-10 nav">
-    <a href="./">{{site.title}}</a>
-    <a href="./syllabus" >Syllabus</a>
-    <a href="http://www.github.com/w4111/scribenotes/wiki" >Scribe Notes</a>
+
+<div class="row" style="margin-top: 2em;">
+  <div class="col-md-6 col-md-offset-3">
+		{{ content }}
   </div>
+  <div class="joiner"></div>
 </div>
 
+{% include footer.html %}
 
-<div class="row">
-  <div class="col-md-1"></div>
-  <div class="col-md-10">
-    {{ content}}
-  </div>
-</div>
 
-<div class="row footer">
-  <div class="col-md-3"></div>
-  <div class="col-md-3"> <p>{{ site.description | escape }}</p></div>
-  <div class="col-md-3">
-    {{site.email}}<br/>
-    <a href="http://www.github.com/{{site.github_username}}">GitHub</a>
-  </div>
-  <div class="col-md-3"></div>
-</div>
 
 </body>

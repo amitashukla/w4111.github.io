@@ -1,43 +1,29 @@
 ---
 layout: page
-title: Index
 ---
 
-# W4111 Spring 2016 Syllabus (Section 002)
-
-Goal
-
-        The goal of this class is two-fold.  First, to introduce
-        you to core database concepts (e.g., data modeling, logical
-        design, SQL) so that you too can build a billion dollar
-        application.  Second, to teach enough about database engine
-        internals (e.g., physical database design, query optimization,
-        transaction processing) so you have a good sense of why
-        queries may be running slowly/incorrectly.
+## W4111 Fall 2018 Syllabus (Section 002)
 
 
-See the schedule on the course web site: http://www.cs.columbia.edu/~coms4111/ewu.html
+The goal of this class is two-fold.  First, to introduce
+you to core database concepts (e.g., data modeling, logical
+design, SQL) so that you too can build a billion dollar
+application.  Second, to teach enough about database engine
+internals (e.g., physical database design, query optimization,
+transaction processing) so you have a good sense of why
+queries may be running slowly/incorrectly.
 
 
-Instructor
-
-* Eugene Wu
-* Office Hours: After class on Weds, Mudd 421
-* Class is in 614 Schermerhorn
+Course website: [http://w4111.github.io/](http://w4111.github.io/)
 
 
 
-Office hours
-
-* TA office hours will be in [the TA room](http://www.cs.columbia.edu/ta/tamap.shtml)
-
-
-Textbook
+#### Textbook
 
 *  (Not Required) Database Management Systems 3rd Edition by Ramakrishnan and Gehrke. 
 
 
-Prerequisites
+#### Prerequisites
 
 * COMS W3134 or W3137 (equivalent courses taken elsewhere are acceptable as well) and
 * Fluency in Python or can pick it up during the class
@@ -49,7 +35,7 @@ Prerequisites
   This course is intended for both Computer Science majors as well as non-majors.
 
 
-# Programming Resources
+#### Programming Resources
 
 * See our [Java to Python Quick Guide](./java2python.md)
 * Additional resources
@@ -64,7 +50,7 @@ Prerequisites
 
 
 
-# Assignment Collaboration Policies AKA Cheating
+#### Assignment Collaboration Policies AKA Cheating
 
 * Homework assignments must be done alone.  
   * No collaboration is allowed.  [Don't do it](http://www.cs.columbia.edu/education/honesty)
@@ -80,26 +66,26 @@ Prerequisites
 * [If you have _any_ doubt, see Columbia's description of academic honesty](http://www.cs.columbia.edu/education/honesty)
 
 
-# Homework Submission Policy
+
+
+### Homework Submission Policy
 
 * Homework is generally due before class (2:40 PM) on the due date, unless indicated otherwise.
 * **Auditors**: Only students registered for course units may turn in work to be graded.
 * For CVN students with local teammates, their teammates can turn in homework for them. If both teammates are remote, let the staff know and we can set up electronic submission for you.
 
-<!-- Unless we specify otherwise, students should submit their homework in hard copy rather than electronically.
-  This is a large class and the TAs cannot afford the overhead of printing out electronic homework submissions for grading.-->
 
-
-# Grading
+#### Grading
 
 Grading Policy
 
-* Homework: 15% equally weighted
-* Project 1: 15% 
-* Project 2: 5% 
-* Midterm 1: 25% (closed book, 1 two-sided cheat sheet)
-* Midterm 2: 40% (closed book, 1 two-sided cheat sheet)
-* Scribing: up to 5% extra credit
+* Homeworks <small>15%</small>
+* Project 1 <small>15%</small>
+* Project 2 <small>5%</small>
+* Midterm 1 <small>25%</small>
+* Midterm 2 <small>40%</small>
+* Scribe Notes  <small>[Extra Credit](#ec)</small>
+* Other extra credit  <small>[Extra Credit](#ec)</small>
 
 Notes on grading (please read):
 <a name="cheating"></a>
@@ -113,7 +99,16 @@ Notes on grading (please read):
 * Don't cheat.  It's not worth it.
 
 
-### Late Days
+<a name="ec"/>
+#### Extra Credit
+
+Extra credit is a way for students to illustrate their understanding of the course material in ways beyond formal assignments and exams.  Extra credit is added to the final grade **after computing the curve**.  This means it does not affect other students' final grades, and can only help.  
+
+Due to the additional work that the staff must take to assess and manage extra credit opportunities, we have fairly strict deadlines for extra credit opportunities.
+
+
+
+#### Late Days
 
 Homeworks
 
@@ -152,9 +147,9 @@ When using late days, note that homeworks tend to get harder later in the course
 
 
 
-# Communication
+### Communication
 
-* **(Preferred)**: [Piazza](https://piazza.com/class/irvic0xfdqk3p6)
+* **(Preferred)**:[Piazza](https://piazza.com/class/jgwnwiy186d6pu)
 * **(Least Preferred)**: Email course staff.  There are too many people in the course for this to be a primary option!
 * Announcements will be on website and via emails using courseworks
 
