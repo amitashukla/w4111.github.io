@@ -1,12 +1,18 @@
 /* Page structure */
-
+/* Page structure */
+html {
+  width: 99%;
+  margin: 0px;
+  padding: 0px;
+}
 body {
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
   color: black;
   background-color: white;
   font: normal normal 17px/24px Roboto, Arial, sans-serif;
 }
-
 .container {
 }
 
