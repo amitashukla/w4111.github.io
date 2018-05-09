@@ -2,6 +2,12 @@
 layout: page
 ---
 
+* log into instabase and report your username and UNI
+* try mongoDB
+* try sqlite
+* run a couple queries and submit them
+* self report competency for matchmaking
+
 ## Questions for HW0
 
 

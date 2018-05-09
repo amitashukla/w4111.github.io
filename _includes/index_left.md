@@ -6,7 +6,7 @@
   <small>OH: TBA in [TA room](http://www.cs.columbia.edu/ta/tamap.shtml)</small>
 * Class: T/Th 4-5:30PM
 * Units: 3 units
-* [Syllabus](https://w4111.github.io/syllabus)
+* [Syllabus](./syllabus)
 * [Piazza](https://piazza.com/class/jgwnwiy186d6pu)
 * [Provide Feedback](https://goo.gl/forms/QIfWsPnwu3YHtamk1)
 * [Course Github](http://github.com/w4111)

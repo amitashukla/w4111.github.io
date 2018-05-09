@@ -53,14 +53,14 @@ Course website: [http://w4111.github.io/](http://w4111.github.io/)
 #### Assignment Collaboration Policies AKA Cheating
 
 * Homework assignments must be done alone.  
-  * No collaboration is allowed.  [Don't do it](http://www.cs.columbia.edu/education/honesty)
+  * No collaboration is allowed.  **[Don't do it](http://www.cs.columbia.edu/education/honesty)**
 * Projects are in teams of 2.  
   * Both members will recieve the same grade and should collaborate with each other.  
-  * Collaboration outside of the team is not allowed. [Don't do it](http://www.cs.columbia.edu/education/honesty)
+  * Collaboration outside of the team is not allowed. **[Don't do it](http://www.cs.columbia.edu/education/honesty)**
   * CVN students are also required to have a partner.  The partner can be someone in the main class or flipped classroom.
 * Cheating is no fun for anyone
   * Rampant cheating devaluages the Columbia degree.
-  * Any *hint* of cheating will be reported to student affairs and result in 
+  * **Any *hint* of cheating will be reported to student affairs.**
   * If you are struggling to keep up in the course, come see the instructor during office hours.
   * Cheating is a slippery slope -- it may be enticing, but goes against the values in this course.
 * [If you have _any_ doubt, see Columbia's description of academic honesty](http://www.cs.columbia.edu/education/honesty)
@@ -90,6 +90,7 @@ Grading Policy
 Notes on grading (please read):
 <a name="cheating"></a>
 
+* We will not publish exact scoring criteria.
 * The percentages are subject to change as circumstances dictate. 
 * Active participation in piazza and/or OH can positively affect your final grade.
 * Since exams are the main indicators we have of individual grasp of the material, we reserve the right to adjust final letter grades based on exam performance.
@@ -102,7 +103,7 @@ Notes on grading (please read):
 <a name="ec"/>
 #### Extra Credit
 
-Extra credit is a way for students to illustrate their understanding of the course material in ways beyond formal assignments and exams.  Extra credit is added to the final grade **after computing the curve**.  This means it does not affect other students' final grades, and can only help.  
+Extra credit is a way for students to illustrate their understanding of the course material in ways beyond formal assignments and exams.  Extra credit is added to the final grade **after computing the curve**.  We first compute the curve and grade cut-offs using scores that **do not** include any extra credit, and then add extra credit afterwards.  This means it does not affect other students' final grades, and can only help.   
 
 Due to the additional work that the staff must take to assess and manage extra credit opportunities, we have fairly strict deadlines for extra credit opportunities.
 
