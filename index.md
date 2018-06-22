@@ -6,7 +6,7 @@ layout: index
 
 The goal of this class is two-fold. First, to introduce you to core database concepts (e.g., data modeling, logical design, SQL) so that you too can build a billion dollar application. Second, to teach enough about database engine internals (e.g., physical database design, query optimization, transaction processing) so you have a good sense of why queries may be running slowly/incorrectly.
 
-<b>Advanced Assignments</b>  There will be an experimental set of optional extra-credit assignments that will dive into more advanced database topics. These assignments will involve extending a simple Python-based database engine with additional functionality, or optimizations described in class..  
+**Advanced Assignments**  There will be an experimental set of [optional extra-credit assignments](./advanced) that will dive into more advanced database topics. These assignments will involve extending a simple Python-based database engine with additional functionality, or optimizations described in class..  
 
 
 #### Recent Announcements
