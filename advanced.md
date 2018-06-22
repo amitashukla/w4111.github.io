@@ -6,7 +6,7 @@ layout: page
 
 The series of advanced assignments will implement new features or improvements to 
 a Python implementation of a query engine called [DataBass](https://www.github.com/w4111/databass).
-DeepBass is pretty full featured!  It can:
+DataBass is pretty full featured!  It can:
 
 * 
 
