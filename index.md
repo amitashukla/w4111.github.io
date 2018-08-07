@@ -11,17 +11,18 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 
+* Please do not email me with questions about registration and enrollment.  Enrollments will be based on the waitlist and completion of HW0.   Historically, students that stick with the class have been able to enroll.
 
 #### Schedule
 
 <table class="table table-striped schedule">
   <thead>
   <tr>
-    <th class="date" style="min-width: 5em;"> <p> <span>Date </span> </p> </th>
-    <th style="min-width: 400px;"> <p> <span>Topic </span> </p> </th>
-    <th style="min-width: 100px"> <p> <span>Readings </span> </p> </th>
-    <th style="width: 100px;"> <p> <span>Assigned</span> </p> </th>
-    <th style="width: 200px;"> <p> <span>Due</span> </p> </th>
+    <th class="date" style="width: 4em; max-width: 4em;"> <p> <span>Date </span> </p> </th>
+    <th style="min-width: 30%;"> <p> <span>Topic </span> </p> </th>
+    <th style="width: 20%"> <p> <span>Readings </span> </p> </th>
+    <th style="width: 10%;"> <p> <span>Assigned</span> </p> </th>
+    <th style="width: 5%;"> <p> <span>Due</span> </p> </th>
   </tr>
   </thead>
 {% for r in site.data.schedule %}
