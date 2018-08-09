@@ -9,7 +9,3 @@ The series of advanced assignments will ask you to write programs or edit a simp
 * [Translating ER diagrams to SQL statements](./er)
 * [Graph analysis using common table expressions](./graph)
 * [DataBass Assignments](./databass)
-  1. [Add to the Parser](./parser)
-  1. [Add an operator and get it to run](./op)
-  1. [Join ordering optimization](./join)
-  1. [Query compilation](./compile)

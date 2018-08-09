@@ -28,8 +28,7 @@ Now you are ready to [read the system architecture and documentation](https://gi
 
 Each assignment modifies a different part of the engine:
 
-1. [Add to the Parser](./parser)
-1. [Add an operator and get it to run](./op)
+1. [Add OFFSET to DataBass](./offset)
 1. [Join ordering optimization](./join)
 1. [Query compilation](./compile)
 

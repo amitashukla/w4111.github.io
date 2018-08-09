@@ -80,20 +80,46 @@ We have [provided a starter script for you to edit](./graph.py).  To use this sc
 
 Once you have done this, then you can edit [graph.py](./graph.py) to update the `PATHTOCRED` variable to where you stored the credentials file and then run the script.  
 
+        python graph.py <path to credentials file>
+
 References
 
 * https://cloud.google.com/bigquery/create-simple-app-api#bigquery-simple-app-local-dev-python
 
 
-#### Queries
+### Queries
 
 Implement the functions in the Python file to return the rows corresponding to the answers to the following questions:
 
-* Q1: `id` of Tweets that contain both the phrase "going live" and a URL to Twitch.com.
-* Q2: 
-* Q3: 
-* Q4: 
-* Q5: 
+##### Q1
+
+Many Twitch streamers will tweet that they are starting a live broadcast beforehand as a way to advertise themselves.  
+Find the `id` of Tweets that contain both the phrase "going live" and a URL to twitch.com.  
+
+For example:
+
+* "I'm going live now at http://www.twitch.com/blah/stream/" is a match
+* "I'm going live!" is not a match
+
+
+##### Q2
+
+Twitch streamers sometimes @ mention other streamers in their tweets by adding a "@" prefix to the other streamer's Twitter username.  For instance, the following tweet mentions `anotheruser`. 
+
+      Thanks to @anotheruser for a great broadcast!
+
+Take a look at the [regular expressions documentation for BigQuery](https://cloud.google.com/bigquery/docs/reference/standard-sql/functions-and-operators#regexp_extract).    
+
+Find all the tweets that @ mention another user, and return the tweeter and the user mentioned in the tweet.  You can assume that each tweet mentions at most one other streamer.
+
+
+##### Q3 
+
+The answer to Q2 actually forms a graph where each row is an edge between a tweeter and the user that the tweet @ mentions.  
+
+
+##### Q4 
+##### Q5 
 
 
 
