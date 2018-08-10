@@ -65,12 +65,28 @@ In this assignment we will make a number of simplifying assumptions:
 * The only join algorithm is nested loop join
 * Each attribute's distribution is uniform between its min and max values.  Thus if attribute table `T` has 200 records and `T.a` has min/max values of 0,100, then we assume the selectivity of `T.a = 1` is `1/100`, and will match `2` records.
 
-#### Statistics
+## The Assignment
+
+#### Part 1: Statistics
 
 To implement our simple version of Selinger, you will need to compute two statistics by editing the `Stat` class definition in `db.py`.   
 
-1. The first is to compute the cardinality of the table.  Since DataBass loads the full table into memory, you can compute an exact estimate.     
-1. The second is to compute the domain of a given field.  For a numeric field, it should be the min/max values, while for a non-numeric field such as text, it should be the set of all unique values. 
+1. The first is to compute the cardinality of the table, and store it in `Stat.card` in the constructor.  Since DataBass loads the full table into memory, you can compute an exact estimate.     
+1. The second is to compute the domain of a given field in `Stat.__getitem__()`.    The method should return a dictionary: `dict(min=?, max=?, ndistinct=?)`
+  * For a numeric field (see `Table.type()`), it should return min and max value in the field, along with the number of distinct values.
+  * For a string field, it should set min and max to None, and set the number of distinct values.
+
+
+#### Part 2: Estimate Join Cardinalities
+
+Now, you will implement code to estimate the cardinality of a single join, by filling in the code for `estimate_join_cardinality()` and `estimate_join_cardinality_helper()`.
+
+#### Part 3: Selinger
+
+Now that you can estimate join cardinalities, you can implement the selinger join ordering algorithm!  To do so, first implement the base case, which is to identify the best two table join, where the cost of a join is its output cardinality.
+Once you have done so, you can ignore those two input tables, and identify the next table to join (as the right/inner table) with the best two table join.  You will keep running this procedure until all tables have been joined.
+Implement this by editing `compute_join_order()`.
+
 
 ### Logistics
 
