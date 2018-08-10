@@ -8,9 +8,9 @@ layout: page
 ## Query Compilation
 
 
-In this lab, you will got through the process of implementing query compilation for the projection operator in a very simple query plan.  Throughout this process, you will learn the basics of the producer-consumer model used to perform query compilation.  This can give you big performance speed ups.  
+In this lab, you will go through the process of implementing query compilation for the projection operator in a very simple query plan.  Throughout this process, you will learn the basics of the producer-consumer model used to perform query compilation.  This can give you big performance speed ups.  
 
-As an example, we ran the interpreted and compiled versions of the following query using the staff implementation:
+As an example, we ran the interpreted and compiled versions of the following query using the staff solutions to this assignment:
 
        SELECT COUNT(*)
          FROM (SELECT a AS a, b+c AS b
@@ -18,14 +18,15 @@ As an example, we ran the interpreted and compiled versions of the following que
                 WHERE a < 9+1+1)
         WHERE a < b
 
-The performance was over 10x:
+The performance wins of compilation over interpretation was over 10x!
 
         Interpreted     3.8025290966
            Compiled     0.260922908783
 
-If you are interested, this idea was introduced in a paper called [Efficiently Compiling Efficient Query Plans for Modern Hardware](http://www.vldb.org/pvldb/vol4/p539-neumann.pdf), and forms the basis of most modern database engines.
 
 ## Background
+
+We will first describe a simpler case of compiling arithmetic expressions, and then move onto the main idea behind compiling query plans.  We will then introduce the producer-consumer approach towards compilation, which you will implement in this assignment.
 
 ### Compiling Simple Expressions
 
@@ -156,9 +157,9 @@ We have also provided two helper classes: `CodeBlock` will help you when generat
 
 Your task is to fill in the `produce()` and `consume()` methods in the operator classes.
 
-#### Assignment 1:
+#### Assignment 1: Expressions
 
-As a warmup, you will add more functionality to expressions.  Edit the code in `exprs.py` to support the binary operations "-", ">=", "<=", and "!=".  Make sure that these operations can also be compiled!
+As a warmup, you will add more functionality to expressions.  Edit the code in `exprs.py` to support the binary operations "-", ">=", "<=", and "!=".  We have added comments to the places where you may need to edit.  Make sure that these operations can also be compiled!
 
 Run the following as a sanity check that your implementation works.  Note that these tests are not exhaustive:
 
@@ -207,10 +208,47 @@ Run `test_compiler.py`.  You should see that the projection tests now pass.
 
 #### 5: Counting
 
+Now, you will implement a very simple version of Group By aggregation, where there is a single group and a single `COUNT(*)`.  In effect, it supports the following type of aggregation:
+
+        SELECT COUNT(*) AS count
+        FROM ...
+        GROUP BY 1
+
+Implement `Count.produce()` and `Count.consume()`, so that the following query plan:
+
+          Count
+            |
+        Filter(a = b)
+            |
+         Scan(data)
+
+Will be transformed into code that looks like the following.  Your code may be different, but should end up with a single row that is a dictionary with a key called `count` whose value is the number of records in the childe operator.
+
+        n = 0
+        for row in db["data"]:
+          if row["a"] == row["b"]:
+            n += 1
+        row = dict(count=n)
+
+You will need to need to also implement a custom `Count.produce()` method, because note how we needed to define and initialize `n = 0` before the Scan's for loop was generated.  Also after generating the Scan and Filter operators' code, we defined the final `row`.   
+
+Once you implement this, all tests in `test_compiler.py` should now pass, and you can submit your code.
+
+### Submission
 
 
-#### Final Comments
+
+
+### Final Comments
+
+
+##### Limitations
 
 You'll find that there are many limitations to our query compiled engine.  For one, it doesn't support joins.  The reason is because joins introduce >1 input tables, meaning we need to keep track of the names of each table, which table an attribute in an expression refers to, etc.  The amount of bookkeeping is a headache.  
 
 Similarly, supporting aggregations can be challenging, because an aggregation like `avg()` tracks state (the sum and count so far) to incrementally compute the average.  This means you will want to allocate a `sum` and `count` variable inside the for loops.  However, what if your query computes two `avg()` statistics?  You can't blindly create the sam `sum` variable for both functions.  Now you need to keep track of variable names!
+
+##### Further Reading
+
+If you are interested, this idea was introduced in a paper called [Efficiently Compiling Efficient Query Plans for Modern Hardware](http://www.vldb.org/pvldb/vol4/p539-neumann.pdf), and forms the basis of most modern database engines.  Page 12 of [How to Architect a Query Compiler, Revisited](https://www.cs.purdue.edu/homes/rompf/papers/tahboub-sigmod18.pdf) has a diagram and writeup about the history of query compilation.
+
