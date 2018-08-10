@@ -7,6 +7,9 @@ layout: page
 
 ## Query Compilation
 
+* Released:
+* Due:
+* Max team of 2
 
 In this lab, you will go through the process of implementing query compilation for the projection operator in a very simple query plan.  Throughout this process, you will learn the basics of the producer-consumer model used to perform query compilation.  This can give you big performance speed ups.  
 

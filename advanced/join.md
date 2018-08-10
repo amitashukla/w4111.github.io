@@ -7,6 +7,12 @@ layout: page
 
 ## Join Ordering Optimization
 
+
+* Released: 
+* Due: 
+* Max team of 2
+
+
 In this assignment, you will use simple statistics to implement a simple version of the Selinger join optimizer to determine the join ordering for multi-table joins.
 To do so, take a look at `optimizer.py`.  The class performs a single optimization, which is to replace the N-way `From` operator with a join tree that can actually be executed.
 Take a look at `expand_from_op` to see our naive implementation.

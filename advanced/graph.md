@@ -6,6 +6,11 @@ layout: page
 
 ### Graph Analysis 
 
+* Released:
+* Due:
+* Max team of 2
+
+  
 Many graph analyses compute network centrality, density, shortest paths, and other path-based statistics about a graph.  It may seem that writing a one-off Python script is a good way to perform this analysis, but it turns out that SQL is pretty great at doing this type of analysis!  
 
 

@@ -6,6 +6,10 @@ layout: page
 
 ## Entity Relationship Translation
 
+* Released: 
+* Due: 
+* Max team of 2
+
 In this assignment, you will write a python program that translates simple ER diagrams into a set of SQL schema definition statements that adheres to the constraints indicated in the ER diagram.  
 
 [Click here for a link to the Instabase Jupytr notebook that you will complete the assignment in](#).
