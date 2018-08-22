@@ -70,10 +70,8 @@ Course website: [http://w4111.github.io/](http://w4111.github.io/)
 
 ### Homework Submission Policy
 
-* Homework is generally due before class (2:40 PM) on the due date, unless indicated otherwise.
-* **Auditors**: Only students registered for course units may turn in work to be graded.
+* **Auditors**: feel free to come to lectures.  Only students registered for course units may turn in work to be graded.
 * For CVN students with local teammates, their teammates can turn in homework for them. If both teammates are remote, let the staff know and we can set up electronic submission for you.
-
 
 #### Grading
 
@@ -93,19 +91,22 @@ Notes on grading (please read):
 * We will not publish exact scoring criteria.
 * The percentages are subject to change as circumstances dictate. 
 * Active participation in piazza and/or OH can positively affect your final grade.
+* I intend to keep the definition of "A+: Exceed expectations" meaningful.
 * Since exams are the main indicators we have of individual grasp of the material, we reserve the right to adjust final letter grades based on exam performance.
-* Extra credit is added in a way that _only benefits_ the reciptients and _does not_ harm others in the course.  In other words, you are NOT penalized in any way if you do not recieve extra credit.
-* Work that you submit must be your own (or for two-person projects, the team's). 
-  We will run the standard software duplication checkers on submitted assignments.
+* Extra credit is added in a way that _only benefits_ the recipients and _does not_ harm others in the course.  In other words, you are NOT penalized in any way if you do not recieve extra credit.
+* Work that you submit must be your own (or for two-person projects, the team's).  We will run the standard software duplication checkers on submitted assignments.
 * Don't cheat.  It's not worth it.
 
 
 <a name="ec"/>
 #### Extra Credit
 
-Extra credit is a way for students to illustrate their understanding of the course material in ways beyond formal assignments and exams.  Extra credit is added to the final grade **after computing the curve**.  We first compute the curve and grade cut-offs using scores that **do not** include any extra credit, and then add extra credit afterwards.  This means it does not affect other students' final grades, and can only help.   
+Extra credit is a way for students to illustrate their understanding of the course material in ways beyond formal assignments and exams.  The amount of extra credit for scribe notes is variable, and the amount for the advanced assignments are described on the assignment descriptions.   **There is NO PENALTY for not doing extra credit** because it is added to the final grade **after computing the curve**.  
 
-Due to the additional work that the staff must take to assess and manage extra credit opportunities, we have fairly strict deadlines for extra credit opportunities.
+1. We first compute the curve and grade cut-offs using scores that **do not** include any extra credit
+2. Then we add extra credit points.  
+
+Due to the additional work that the staff must take to assess and manage extra credit opportunities, we have strict deadlines for extra credit opportunities.
 
 
 
