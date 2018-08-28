@@ -83,7 +83,7 @@ Grading Policy
 * Midterm 1 <small>25%</small>
 * Midterm 2 <small>40%</small>
 * Scribe Notes  <small>[Extra Credit](#ec)</small>
-* Other extra credit  <small>[Extra Credit](#ec)</small>
+* [Advanced Assignments](https://github.com/w4111/advanced)  <small>[Extra Credit](#ec)</small>
 
 Notes on grading (please read):
 <a name="cheating"></a>
