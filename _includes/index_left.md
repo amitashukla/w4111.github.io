@@ -1,16 +1,25 @@
 #### Information 
 
-* [Eugene Wu](http://www.eugenewu.net) (Instructor)   
-  <small>OH: TBA in 421 Mudd</small>
-* TBA (IA)   
-  <small>OH: TBA in [TA room](http://www.cs.columbia.edu/ta/tamap.shtml)</small>
-* Class: T/Th 4-5:30PM
-* Units: 3 units
+* T/Th 4-5:30PM   
+  501 Northwest Corner    
+  3 units
 * [Syllabus](./syllabus)
 * [Piazza](https://piazza.com/class/jgwnwiy186d6pu)
 * [Provide Feedback](https://goo.gl/forms/QIfWsPnwu3YHtamk1)
 * [Course Github](http://github.com/w4111)
 
+#### Staff
+
+* [Eugene Wu](http://www.eugenewu.net) (Instructor)   
+  <small>Thurs 5:30 in 421 Mudd</small>
+* Felipe Rocha (IA)   
+  <small>TBA in [TA room](http://www.cs.columbia.edu/ta/tamap.shtml)</small>
+* Amita Shukla (IA)   
+  <small>TBA in [TA room](http://www.cs.columbia.edu/ta/tamap.shtml)</small>
+* Amit Bhat (IA)   
+  <small>TBA in [TA room](http://www.cs.columbia.edu/ta/tamap.shtml)</small>
+* Ivy Chen (IA)   
+  <small>TBA in [TA room](http://www.cs.columbia.edu/ta/tamap.shtml)</small>
 
 #### Prereqs
 
@@ -25,6 +34,8 @@
 * Project 2 <small>5%</small>
 * Midterm 1 <small>25%</small>
 * Midterm 2 <small>40%</small>
-* Scribe Notes  <small>[Extra Credit](./syllabus#ec)</small>
-* Other extra credit  <small>[Extra Credit](./syllabus#ec)</small>
+* Scribe Notes    
+  <small>[Extra Credit](./syllabus#ec)</small>
+* [Advanced Assignments](https://github.com/w4111/advanced)  
+  <small>[Extra Credit](./syllabus#ec)</small>
 
