@@ -29,7 +29,11 @@ The goal of this class is two-fold. First, to introduce you to core database con
 {% for r in site.data.schedule %}
   <tr style="background-color: {{r.color}};">
     <td class="date">{{r.date}}</td>
-    <td class="slug"><a href="{{r.link}}">{{r.slug}}</a><br/>{{r.title}}</td>
+    <td class="slug">
+      {% if r.lshow == "1" %} <a href="{{r.link}}"> {% endif %}
+        {{r.slug}}
+      {% if r.lshow == "1" %} </a> {% endif %}
+      <br/>{{r.title}}</td>
     <!--<td class="readings">{{r.readings | safe}}</td>-->
     <td>{% if 1 or r.ashow == "1" %} {{r.assigned | safe}} {% endif %}</td>
     <td>{% if 1 or r.dshow == "1" %} {{r.due | safe}} {% endif %}</td>
