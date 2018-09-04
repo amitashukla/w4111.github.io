@@ -35,8 +35,8 @@
   * [HW2](https://github.com/w4111/hw2) <small>3.75%</small>
   * [HW3](https://github.com/w4111/hw3) <small>3.75%</small>
   * [HW4](https://github.com/w4111/hw4) <small>3.75%</small>
-* Project 1 <small>15%</small>
-* Project 2 <small>5%</small>
+* [Project 1](https://github.com/w4111/project1) <small>15%</small>
+* [Project 2](https://github.com/w4111/project2) <small>5%</small>
 * Midterm 1 <small>25%</small>
 * Midterm 2 <small>40%</small>
 * [Scribe Notes](https://github.com/w4111/scribenotes/wiki)    
