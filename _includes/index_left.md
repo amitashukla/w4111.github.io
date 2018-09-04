@@ -34,7 +34,7 @@
 * Project 2 <small>5%</small>
 * Midterm 1 <small>25%</small>
 * Midterm 2 <small>40%</small>
-* Scribe Notes    
+* [Scribe Notes](https://github.com/w4111/scribenotes/wiki)    
   <small>[Extra Credit](./syllabus#ec)</small>
 * [Advanced Assignments](https://github.com/w4111/advanced)  
   <small>[Extra Credit](./syllabus#ec)</small>
