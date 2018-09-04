@@ -109,6 +109,11 @@ Extra credit is a way for students to illustrate their understanding of the cour
 Due to the additional work that the staff must take to assess and manage extra credit opportunities, we have strict deadlines for extra credit opportunities.
 
 
+##### Extra Credit Opportunities
+
+* [Improve the scribe notes wiki](https://github.com/w4111/scribenotes/wiki)
+* Do [Advanced Assignments](https://github.com/w4111/advanced)
+
 
 #### Late Days
 
