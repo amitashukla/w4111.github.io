@@ -11,6 +11,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 
+* Want to be auto-matched with a project partner?  [Sign up here](https://goo.gl/forms/ail3TK0sNpRi7qFR2) by 9/7 10AM EST.
 * Please do not email me with questions about registration and enrollment.  Enrollments will be based on the waitlist and completion of HW0.   Historically, students that stick with the class have been able to enroll.
 
 #### Schedule
