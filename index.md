@@ -41,10 +41,4 @@ The goal of this class is two-fold. First, to introduce you to core database con
 {% endfor %}
 </table>
 
-<style>
-.schedule tr:hover {
-  background: whitesmoke;
-  border: 1px solid black;
-}
 
-</style>
