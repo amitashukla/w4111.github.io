@@ -119,6 +119,13 @@ ol, ul {
   text-align: right;
 }
 
+.schedule tr {
+  border: 1px solid white;
+}
+.schedule tr:hover {
+  border: 1px solid black;
+}
+
 .abstract, header {
   border-top: 2px solid #b46;
   border-bottom: 2px solid #b46;

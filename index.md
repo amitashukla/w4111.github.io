@@ -27,7 +27,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
   </tr>
   </thead>
 {% for r in site.data.schedule %}
-  <tr style="background-color: {{r.color}};">
+  <tr style="background-color: {{r.color}}; ">
     <td class="date">{{r.date}}</td>
     <td class="slug">
       {% if r.lshow == "1" %} <a href="{{r.link}}"> {% endif %}
@@ -40,3 +40,11 @@ The goal of this class is two-fold. First, to introduce you to core database con
   </tr>
 {% endfor %}
 </table>
+
+<style>
+.schedule tr:hover {
+  background: whitesmoke;
+  border: 1px solid black;
+}
+
+</style>
