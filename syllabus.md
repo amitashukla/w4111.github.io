@@ -35,6 +35,10 @@ Course website: [http://w4111.github.io/](http://w4111.github.io/)
   This course is intended for both Computer Science majors as well as non-majors.
 
 
+If you have used Java before, then use [this Java2Python tutorial](./java2python.md)
+that we have written to see how Java concepts transfer into Python concepts.  It also
+contains links to useful tutorials.
+
 #### Programming Resources
 
 * See our [Java to Python Quick Guide](./java2python.md)
