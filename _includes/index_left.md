@@ -15,7 +15,7 @@
 * Felipe Rocha (IA)   
   <small>TBA in [TA room](http://www.cs.columbia.edu/ta/tamap.shtml)</small>
 * Amita Shukla (IA)   
-  <small>TBA in [TA room](http://www.cs.columbia.edu/ta/tamap.shtml)</small>
+  <small>Thurs 1:30-4 in [TA room](http://www.cs.columbia.edu/ta/tamap.shtml)</small>
 * Amit Bhat (IA)   
   <small>TBA in [TA room](http://www.cs.columbia.edu/ta/tamap.shtml)</small>
 * Ivy Chen (IA)   
