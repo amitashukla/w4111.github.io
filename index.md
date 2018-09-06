@@ -11,6 +11,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 
+* (9/5) Do you have trouble figuring out what your Python code is doing?  [PythonTutor](http://pythontutor.com/) visualizes what Python is doing at each step in the program.  See if it helps!
 * (9/5) You are welcome to find project partner on your own.  If you want to be auto-matched with a project partner,  [sign up here](https://goo.gl/forms/ail3TK0sNpRi7qFR2) by 9/7 10AM EST, and we will auto-match you will a teammate by 9/10.  Matches are **binding** so be sure you want to be matched automatically before submitting.
 * (9/1) Please do not email me with questions about registration and enrollment.  Enrollments will be based on the waitlist and completion of HW0.   Historically, students that stick with the class have been able to enroll.
 
