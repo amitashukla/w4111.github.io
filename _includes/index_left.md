@@ -4,7 +4,7 @@
   501 Northwest Corner    
   3 units
 * [Syllabus](./syllabus)
-* [Piazza](https://piazza.com/class/jgwnwiy186d6pu)
+* [Piazza](https://piazza.com/columbia/fall2018/databasesw4111)
 * [Provide Feedback](https://goo.gl/forms/QIfWsPnwu3YHtamk1)
 * [Course Github](http://github.com/w4111)
 
