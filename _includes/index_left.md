@@ -12,7 +12,7 @@
 
 * [Eugene Wu](http://www.eugenewu.net) (Instructor)   
   <small>Thurs 5:30 in 421 Mudd</small>
-* Felipe Rocha (IA)   
+* Felipe Rocha (IA) <small>([email](mailto:felipe.rocha@columbia.edu))</small><br>
   <small>TBA in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
 * Amita Shukla (IA)   
   <small>TBA in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
@@ -20,7 +20,7 @@
   <small>TBA in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
 * Ivy Chen (IA)   
   <small>TBA in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
-* Chih-Chi'an (IA)   
+* Zhijian <small>(Chih-Chi’an)</small> Jiang (IA)   
   <small>TBA in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
 * Mayank Saxena (IA)   
   <small>TBA in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
