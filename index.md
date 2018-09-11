@@ -34,7 +34,10 @@ The goal of this class is two-fold. First, to introduce you to core database con
       {% if r.lshow == "1" %} <a href="{{r.link}}"> {% endif %}
         {{r.slug}}
       {% if r.lshow == "1" %} </a> {% endif %}
-      <br/>{{r.title}}</td>
+      <br/>{{r.title}}
+      {% if r.optional %}<br/>{% endif%}
+      {{r.optional | safe}}
+      </td>
     <!--<td class="readings">{{r.readings | safe}}</td>-->
     <td>{% if 1 or r.ashow == "1" %} {{r.assigned | safe}} {% endif %}</td>
     <td>{% if 1 or r.dshow == "1" %} {{r.due | safe}} {% endif %}</td>
