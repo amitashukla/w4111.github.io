@@ -21,6 +21,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 <table class="table table-striped schedule">
   <thead>
   <tr>
+    <th class="idx"></th>
     <th class="date" style="width: 4em; max-width: 4em;"> <p> <span>Date </span> </p> </th>
     <th style="min-width: 20%;"> <p> <span>Topic </span> </p> </th>
     <!--<th style="width: 15%"> <p> <span>Readings </span> </p> </th>-->
@@ -28,8 +29,12 @@ The goal of this class is two-fold. First, to introduce you to core database con
     <th style="width: 25%;"> <p> <span>Due</span> </p> </th>
   </tr>
   </thead>
+{% assign idx = 0 %}
+
 {% for r in site.data.schedule %}
+  {% assign idx = idx | plus: 1  %}
   <tr style="background-color: {{r.color}}; ">
+    <td class="idx">L{{idx}}</td>
     <td class="date">{{r.date}}</td>
     <td class="slug">
       {% if r.lshow == "1" %} <a href="{{r.link}}"> {% endif %}
