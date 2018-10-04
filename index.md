@@ -11,6 +11,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 
+* Click here for the [SQL instabase examples shown in class](https://www.instabase.com/ewu/w4111-public/fs/Instabase%20Drive/Examples/)
 * Updated [AA1](https://github.com/w4111/advanced/blob/master/databass/offset.md) to clarify what to do if offset is negative: your code should raise an exception.  We have also updated the databass-public repo in `ops.py` so that LIMIT obeys the same semantics.  Issue a `git pull` in your copy of the codebase to see the changes.
 * (9/16) Professor Wu will have extra office hours Tuesday 9/18 at 5:30-6:15PM to go over DataBass questions and the codebase for studens working on [AA1](https://github.com/w4111/advanced).
 * (9/5) Do you have trouble figuring out what your Python code is doing?  [PythonTutor](http://pythontutor.com/) visualizes what Python is doing at each step in the program.  See if it helps!
