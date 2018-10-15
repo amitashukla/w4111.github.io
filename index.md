@@ -11,6 +11,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 
+* (10/15) Updated lecture 4 and 5 slides to clarify primary key for weak entity translation.
 * (10/11) There are TWO Exam locations!!  
   * 501 NWC if the last digit of your UNI is 1,2,3,4, or 5.   
   * Pupin 329 if the last digit of your UNI is 6, 7, 8, or 9
