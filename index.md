@@ -11,6 +11,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 
+* (10/16) Professor Wu's office hours will be moved to Wednesday 3:30-4:30PM for last minute midterm questions.
 * (10/15) Updated lecture 4 and 5 slides to clarify primary key for weak entity translation.
 * (10/11) There are TWO Exam locations!!  
   * 501 NWC if the last digit of your UNI is 1,2,3,4, or 5.   
