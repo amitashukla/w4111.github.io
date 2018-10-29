@@ -11,6 +11,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 
+* (10/29) Professor Wu will have extra office hours Wednesday 3-5PM to discuss the midterm questions or anything else students want help with.
 * (10/22) [Midterm 1 Solutions are released](https://github.com/w4111/w4111.github.io/tree/master/files/reading/midterm1-2018f-sol.pdf)
 * (10/16) Professor Wu's office hours will be moved to Wednesday 3:30-4:30PM for last minute midterm questions.
 * (10/15) Updated lecture 4 and 5 slides to clarify primary key for weak entity translation.
