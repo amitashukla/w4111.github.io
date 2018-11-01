@@ -16,7 +16,7 @@ white,18-Oct,Midterm: closed book,one 8x11 page cheat sheet both sides,,,,,"<a h
 #edf3f9,23-Oct,APIs (Guest Lecture: <a href='http://sellam.me'>Thibault Sellam</a>),"DBAPIs, Impedance Mismatches, SQL Injection",1,https://w4111.github.io/files/lectures/lec15.pdf,Chapter 6,,,,Project 1 Part 2 10AM,
 #edf3f9,25-Oct,Project 1 Part 3 setup & Intro to Flask,,,https://w4111.github.io/files/lectures/lec16.pdf,Chapter 19 except 19.8 (you do need to know 3NF at the level of lecture),,"<a href=""https://github.com/w4111/advanced/tree/master/databass"">AA3</a>",,,
 #edf3f9,30-Oct,Normalization,,1,https://w4111.github.io/files/lectures/lec17.pdf,Chapter 8 (level of detail covered in class),,,,,
-#ddf9ff,1-Nov,Physical Design,"Disk storage, Heap Files",,https://w4111.github.io/files/lectures/lec18.pdf,,,,,,
+#ddf9ff,1-Nov,Physical Design,"Disk storage, Heap Files",1,https://w4111.github.io/files/lectures/lec17.pdf,,,,,,
 #ddf9ff,8-Nov,Physical Design,"B+Trees, Hash Files, Single operator optimizations",,https://w4111.github.io/files/lectures/lec19.pdf,,,"<a href=""https://github.com/w4111/advanced/tree/master/databass"">AA4</a>",,AA3  10AM,
 #ddf9ff,13-Nov,Query Processing,"Query plans, statistics, join algorithms",,https://w4111.github.io/files/lectures/lec20.pdf,Chapter 12 (level of detail covered in class),,,,,
 #ddf9ff,15-Nov,Query Processing,Join algorithms and Selinger,,https://w4111.github.io/files/lectures/lec21.pdf,Chapter 12 (level of detail covered in class),"optional: <a href=""./reading/selinger.pdf"">Access Path Selection in a Relational Database Management System</a>","<a href=""https://github.com/w4111/hw4"">HW 4</a><br/><a href=""https://github.com/w4111/advanced/tree/master/databass"">AA5</a>",,HW 3 10AM<br/>AA4  10AM,
