@@ -11,6 +11,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 
+* (11/01) Starting Nov 6th, Professor Wu's office hours will be permanently moved to Tuesdays 5:30-6:30 based on student votes.
 * (11/01) [Link to ungraded functional dependency quiz from lecture](https://goo.gl/forms/j5p9TP5noFnvejb53)
 * (10/29) Professor Wu will have extra office hours Wednesday 3-5PM to discuss the midterm questions or anything else students want help with.
 * (10/22) [Midterm 1 Solutions are released](https://github.com/w4111/w4111.github.io/tree/master/files/reading/midterm1-2018f-sol.pdf)
