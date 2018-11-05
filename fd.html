@@ -13,7 +13,7 @@
         <div class="row"><div class="col-md-7">
           <p>
           We have generated 100 random functional dependency problems for you to have practice with.
-          You can press &larr; or &rarr; on the keyboard to go to the next or previous problem.
+          You can press &larr; or &rarr; on the keyboard to go to the previous or next problem.
           </p>
           <button class="btn btn-primary" id="btn">Click to Toggle Answer</button>
           <button class="btn btn-primary" id="randbtn">Go to random question</button>
@@ -84,18 +84,21 @@
         <h4>BCNF 1</h4>
         <small>List the BCNF decomposition using the provided functional dependencies:</small>
         <div>
-          <span class="sol" style="display:none">{{solution.bcnf.orig}}</span>
+          <span class="sol" style="display:none">{{#each solution.bcnf.orig}} <span class='relation'>{{this}}</span> {{/each}}</span>
         </div>
 
+        <br/>
         <h4>BCNF 2</h4>
         <small>List the BCNF decomposition using the minimal closure of the functional deps:</small>
         <div>
-          <span class="sol" style="display:none">{{solution.bcnf.minfds}}</span>
+          <span class="sol" style="display:none">{{#each solution.bcnf.minfds}} <span class='relation'>{{this}}</span> {{/each}}</span>
         </div>
+
+        <br/>
         <h4>3NF</h4>
         <small>List the 3NF decomposition:</small>
         <div>
-          <span class="sol" style="display:none">{{solution.tnf}}</span>
+          <span class="sol" style="display:none">{{#each solution.tnf}} <span class='relation'>{{this}}</span> {{/each}}</span>
         </div>
       </div>
 
@@ -108,6 +111,9 @@
 }
 small {
   color: gray;
+}
+.relation{
+  display: block;
 }
 </style>
 
