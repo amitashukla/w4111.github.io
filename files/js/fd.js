@@ -32,10 +32,23 @@ function setupKeyEvents() {
     }
   });
 
-  $("#randbtn").click((event) => {
+  $("#btnrand").click((event) => {
     probIdx = randInt(0, probs.probs.length-1);
     loadProblem(probIdx);
   });
+
+  $("#btnprev").click((event) => {
+    probIdx--;
+    probIdx = (probIdx + probs.probs.length) % probs.probs.length;
+    loadProblem(probIdx);
+  });
+
+  $("#btnnext").click((event) => {
+    probIdx++;
+    probIdx = (probIdx + probs.probs.length) % probs.probs.length;
+    loadProblem(probIdx);
+  });
+
 }
 
 function updateIndex() {
