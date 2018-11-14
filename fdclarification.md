@@ -18,10 +18,31 @@ In BCNF, you take the FDs as-is, and perform decomposition.  The order of functi
                 updated DecomposedRelation by replacing R with its decomposition
 
 
-The key is how `violates` is checked.  You start with the fds in R's projection, and then check
+The key is how `violates` is checked.  You start with the **fds in R's projection**, and then check
 
 1. is fd trivial?  otherwise
 2. does `X` determine R when using the fds in R's projection?
+
+
+What this means is that your decomposition may have been lossy and thus lose potential keys!  Take the example from the lecture notes:
+
+        R:   ABCDE
+        FDS: A->BCDE, BC->A, D->B, C->D
+
+        # suppose we first check D->B:
+
+        D doesn't determine R, thus we decompose into: BD, ACDE
+
+        Let's check BD:
+        
+          Only D->B is in its projection, thus its in BCNF.  
+          
+        Let's check ACDE:
+        
+          Only C->D is in its projection, so ACDE is redundant.
+          Decompose into: CD, ACE
+
+        ACDE has empty projection, thus it's in BCNF
 
 
 ## 3NF
