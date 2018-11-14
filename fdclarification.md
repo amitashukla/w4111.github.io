@@ -8,14 +8,18 @@ This document clarifies decomposition for functional dependencies.  What I demon
 
 ## BCNF
 
-In BCNF, you take the FDs as-is, and perform decomposition.  The order of functional dependencies that you use to perform decomposition will affect the tables that you end up with.
+In BCNF, you take the FDs as-is, and perform decomposition.  The order of functional dependencies that you use to perform decomposition will affect the tables that you end up with.  
 
-        for each fd of the form X->Y in FDs
-          for each R in DecomposedRelations
-            if fd is in R's projection
-              if fd violates BCNF with respect to R
-                decompose R using fd 
-                updated DecomposedRelation by replacing R with its decomposition
+        DecomposedRelations = { R }
+
+        while DecomposedRelations is not empty
+          R = pop a relation from DecomposedRelations
+          FR = subset of FDs in R's projection
+          for fd X->Y in FR
+            if fd violates BCNF with respect to R
+              NewRs = decompose R using fd 
+              add NewRs to DecomposedRelations
+              continue while loop
 
 
 The key is how `violates` is checked.  You start with the **fds in R's projection**, and then check
