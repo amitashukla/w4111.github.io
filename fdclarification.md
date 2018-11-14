@@ -46,7 +46,7 @@ What this means is that your decomposition may have been lossy and thus lose pot
           Only C->D is in its projection, so ACDE is redundant.
           Decompose into: CD, ACE
 
-        ACDE has empty projection, thus it's in BCNF
+        ACE has empty projection, thus it's in BCNF
 
 
 ## 3NF
