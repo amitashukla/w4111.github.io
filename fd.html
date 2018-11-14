@@ -130,7 +130,8 @@ small {
       setupKeyEvents();
       loadProblem(probIdx);
       $("#btn").click(function() {
-        $(".sol").toggle();
+        isHidden = !isHidden;
+        updateSolHidden();
       })
 
     });
