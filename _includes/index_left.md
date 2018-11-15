@@ -12,7 +12,7 @@
 #### Staff
 
 * [Eugene Wu](http://www.eugenewu.net) <small>Instructor</small>   
-  <small>Thurs 5:30 in 421 Mudd</small>
+  <small>Tues 5:30 in 421 Mudd</small>
 * Felipe Rocha <small>IA</small> <small>([email](mailto:felipe.rocha@columbia.edu))</small><br>
   <small>Wed 2:00-4:00 in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
 * Amita Shukla <small>IA</small>   
