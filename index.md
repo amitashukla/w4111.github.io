@@ -11,6 +11,18 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 
+* (11/20) Updated [hw4 part2](https://www.instabase.com/ewu/w4111-public/fs/Instabase%20Drive/HW4/hw4_part2.ipynb)
+  * Explanations
+    
+    Sorry for this incident again. In the beginning, the indexes is not added to the schema and some questions need modifying. 
+    
+  * Change list
+  
+    * Add indexes to the schema (by running another script)
+    * Modify the example
+    * Modify Q5
+    * run the jupyter notebook
+    
 * (11/14) Fixed bug in [FD practice problems](./fd.html)
 * (11/13) [Clarification of functional dependency decomposition](./fdclarification)
 * (11/05) [Link to 100 practice problems for functional dependencies](./fd.html)
