@@ -127,7 +127,7 @@ Homeworks
 * One late day equals one 24 hour period after the due date of the assignment.  
 * Even 1 minute late equals the use of a late day.
 * Once you have used your late days, there will be a 25% penalty for each day an assignment is late.  
-* You do not need to explictly declare the use of late days;  we will assign them to you in a way that is optimal for your grade when different assignments are worth different numbers of points.   
+<!-- * You do not need to explictly declare the use of late days;  we will assign them to you in a way that is optimal for your grade when different assignments are worth different numbers of points.   -->
 
 Projects 
 
@@ -162,7 +162,7 @@ When using late days, note that homeworks tend to get harder later in the course
 
 * **(Preferred)**:[Piazza](https://piazza.com/class/jgwnwiy186d6pu)
 * **(Least Preferred)**: Email course staff.  There are too many people in the course for this to be a primary option!
-* Announcements will be on website and via emails using courseworks
+* Announcements will be on website and via emails using Piazza
 
 <a name="help"></a>
 How to ask for help:
