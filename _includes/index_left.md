@@ -11,12 +11,13 @@
 
 #### Staff
 
+
 * [Eugene Wu](http://www.eugenewu.net) <small>Instructor</small>   
   <small>Tues 5:30 in 421 Mudd</small>
 * Felipe Rocha <small>IA</small> <small>([email](mailto:felipe.rocha@columbia.edu))</small><br>
   <small>Wed 2:00-4:00 in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
 * Amita Shukla <small>IA</small>   
-  <small>Thurs 1:30-3:30 in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
+  <small>Thurs 1:30-4 in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
 * Amit Bhat <small>IA</small>   
   <small>Tue 11:30-1:30 in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
 * Ivy Chen <small>IA</small>   
@@ -25,7 +26,6 @@
   <small>Tue 2:00-4:00 in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
 * Mayank Saxena <small>IA</small>   
   <small>Fri 3:00-5:00 in [TA room](https://ia.cs.columbia.edu/tamap.shtml)</small>
-
 
 #### Prereqs
 
