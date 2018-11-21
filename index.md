@@ -11,6 +11,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 
+* (11/21) [Link to Join Optimization practice problem generator](./join.html)
 * (11/20) Updated [hw4 part2](https://www.instabase.com/ewu/w4111-public/fs/Instabase%20Drive/HW4/hw4_part2.ipynb)
   * Explanations
     
