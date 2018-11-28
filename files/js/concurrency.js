@@ -86,10 +86,9 @@ function pickXact(schedule, xact) {
   return _.filter(schedule, function(op) { return op.xact == xact; });
 }
 
+
 function isConflictSerializable(schedule) {
   var graph = {};
-  var t1 = pickXact("T1"),
-      t2 = pickXact("T2");
   _.each(schedule, function(op1, idx1) {
     _.each(schedule, function(op2, idx2) {
       if (idx2 <= idx1) return;
@@ -102,6 +101,37 @@ function isConflictSerializable(schedule) {
   });
   return _.size(graph) <= 1;
 }
+
+function getConflicts(schedule) {
+  var rwconflicts = [];
+  var wrconflicts = [];
+  var wwconflicts = [];
+  var graph = {};
+  _.each(schedule, function(op1, idx1) {
+    _.each(schedule, function(op2, idx2) {
+      if (idx2 <= idx1) return;
+      if (op1.xact != op2.xact && op1.obj == op2.obj) {
+        msg = idx1 + "," + idx2 + " on " + op1.obj;
+        if (op1.op == "W" && op2.op == "W") {
+          wwconflicts.push(msg);
+        }
+        if (op1.op == "R" && op2.op == "W") {
+          rwconflicts.push(msg);
+        }
+        if (op1.op == "W" && op2.op == "R") {
+          wrconflicts.push(msg);
+        }
+      }
+    })
+  });
+  return {
+    rw: rwconflicts,
+    wr: wrconflicts,
+    ww: wwconflicts
+  };
+}
+
+
 
 function isSerializable(schedule, serialSchedule) {
   function isEqual(dbstate, s1, s2) {
@@ -228,10 +258,12 @@ function genProblem(opts) {
   }
 
   var data = { 
-    schedules: _.map([schedule], scheduleToTable),
+    header: _.times(_.size(schedule), function(i) {return i;}),
+    schedule: scheduleToTable(schedule),
     isSerializable: isSerializable(schedule),
     isConflictSerializable: isConflictSerializable(schedule),
-    isS2PL: isS2PL(schedule)
+    isS2PL: isS2PL(schedule),
+    conflicts: getConflicts(schedule)
   };
   $("#problem").html(
       genHTML("#schedule-template", data)

@@ -12,9 +12,12 @@
         <h3>Concurrency Problem Generator </h3>
         <div class="row"><div class="col-md-7">
           <p>
-          This page generates simple concurrency control schedules and asks you about their properties
+          This page generates simple concurrency control schedules and asks you about their properties.
           Please note that these are just to help generate schedules for you to analyze, you should also understand the concepts themselves!
           </p>
+          <p><small>
+            These problems do not cover anomalies due to aborts.
+          </small></p>
         </div> </div>
         <div class="row"><div class="col-md-5">
           <table class="table"><tbody>
@@ -54,6 +57,21 @@
     <div class="row"><div class="col-md-10">
         <table class="table"><tbody>
           <!--<tr><td>Is Serializable?</td><td>{{isSerializable}}</td></tr>-->
+          <tr>
+              <td>List the conflicts between the transactions.</td>
+              <td>
+                {{#each conflicts}}
+                <p>
+                <b style="margin-right: 1em;">{{@key}} conflicts: </b>
+                  {{#each this}}
+                    <span style="margin-right: 1em; background: #eee; text-decoration: dotted; padding: 3px;">
+                    {{this}}
+                    </span>
+                  {{/each}}
+                </p>
+                {{/each}}
+              </td>
+          </tr>
           <tr><td>Is Conflict Serializable?</td><td>{{isConflictSerializable}}</td></tr>
           <tr><td>Is Strict 2PL? <small>(Assuming COMMIT immediately after last operation)</small></td><td>{{isS2PL}}</td></tr>
         </tbody></table>
@@ -64,7 +82,6 @@
       <div class="col-md-5">
         <p>Please decide if the schedule is the following</p>
         <ol>
-          <li>Serializable
           <li>Conflict Serializable
           <li>Allowed by Strict 2PL
         </ol>
@@ -74,10 +91,12 @@
 
     <div class="row">
       <div class="col-md-5">
-        {{#each schedules}}
         <table class="table">
           <tbody>
-          {{#each this}}
+            <th>
+              {{#each header}} <td style="text-align: center;"> {{this}} </td> {{/each}}
+            </th>
+          {{#each schedule}}
             <tr>
               <td>{{this.0.xact}}</td>
               {{#each this}}
@@ -87,7 +106,6 @@
           {{/each}}
           </tbody>
         </table>
-        {{/each}}
       </div>
     </div>
   </script>
