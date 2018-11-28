@@ -10,6 +10,9 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 
 #### Recent Announcements
+* (11/28) There are TWO Exam locations!!  
+  * 501 NWC if the last digit of your UNI is 0,1,2,3,4, or 5.   
+  * CEPSR 750 if the last digit of your UNI is 6, 7, 8, or 9
 * (11/27) [Link to serializable schedule problem generator](./concurrency.html)
 * (11/23) Project 2 deadline has been moved to 17 Dec 10 AM
 * (11/21) [Link to Join Optimization practice problem generator](./join.html)
