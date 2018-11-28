@@ -54,26 +54,28 @@
     <div class="row"><div class="col-md-12">
       <!--<code class="lead">{{solution}}</code>-->
     </div></div>
-    <div class="row"><div class="col-md-10">
+    <div class="row"><div class="col-md-12">
         <table class="table"><tbody>
           <!--<tr><td>Is Serializable?</td><td>{{isSerializable}}</td></tr>-->
           <tr>
-              <td>List the conflicts between the transactions.</td>
+              <td style="width:25em">List the conflicts between the transactions.</td>
               <td>
+                <table>
                 {{#each conflicts}}
-                <p>
-                <b style="margin-right: 1em;">{{@key}} conflicts: </b>
-                  {{#each this}}
-                    <span style="margin-right: 1em; background: #eee; text-decoration: dotted; padding: 3px;">
-                    {{this}}
-                    </span>
-                  {{/each}}
-                </p>
+                  <tr>
+                    <td style="text-align: right;"> <b style="margin-right: 1em;">{{this.name}}</b></td>
+                    {{#each this.conflicts}}
+                      <td><span style="margin-right: 1em; background: #eee; text-decoration: dotted; padding: 3px;">
+                      {{this}}
+                      </span></td>
+                    {{/each}}
+                  </tr>
                 {{/each}}
+                </table>
               </td>
           </tr>
-          <tr><td>Is Conflict Serializable?</td><td>{{isConflictSerializable}}</td></tr>
-          <tr><td>Is Strict 2PL? <small>(Assuming COMMIT immediately after last operation)</small></td><td>{{isS2PL}}</td></tr>
+          <tr><td style="width:25em">Is Conflict Serializable?</td><td>{{isConflictSerializable}}</td></tr>
+          <tr><td style="width:25em">Is Strict 2PL?<br/> <small>(Assuming COMMIT immediately after last operation)</small></td><td>{{isS2PL}}</td></tr>
         </tbody></table>
     </div></div>
   </script>
@@ -82,7 +84,7 @@
       <div class="col-md-5">
         <p>Please answer the following for the schedule:</p>
         <ol>
-          <li>List the Conflicts (you should know the names of the conflicts)
+          <li>List the Conflicts 
           <li>Is Conflict Serializable?
           <li>Is Allowed by Strict 2PL?
         </ol>

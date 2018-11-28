@@ -125,9 +125,18 @@ function getConflicts(schedule) {
     })
   });
   return {
-    rw: rwconflicts,
-    wr: wrconflicts,
-    ww: wwconflicts
+    rw: {
+      name: "RW Unrepeatable Reads",
+      conflicts: rwconflicts
+    },
+    wr: {
+      name: "WR Dirty Reads",
+      conflicts: wrconflicts
+    },
+    ww: {
+      name: "WW Lost Writes",
+      conflicts: wwconflicts
+    }
   };
 }
 
