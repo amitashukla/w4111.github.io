@@ -10,6 +10,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 
 #### Recent Announcements
+* (11/29) Due to a mistake on our part, we have extended hw4 to 11/30 Fri 2:30 PM.
 * (11/28) Due to a mistake on our part, we have extended hw4 part2 to 11/30 Fri 2:30 PM.
 * (11/28) There are TWO Exam locations!!    You can bring a 1 page 8x11 cheat sheet, both sides.
   * 501 NWC if the last digit of your UNI is 0,1,2,3,4, or 5.   
