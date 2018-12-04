@@ -115,15 +115,27 @@ function getConflicts(schedule) {
         if (op1.op == "W" && op2.op == "W") {
           wwconflicts.push(msg);
         }
-        if (op1.op == "R" && op2.op == "W") {
-          rwconflicts.push(msg);
-        }
         if (op1.op == "W" && op2.op == "R") {
           wrconflicts.push(msg);
         }
       }
     })
   });
+
+  _.each(schedule, function(op1, idx1) {
+    if (op1.op != "R") return;
+    _.each(schedule, function(op2, idx2) {
+      if (idx2 <= idx1) return;
+      if (op2.op != "W" || op2.obj != op1.obj || op2.xact == op1.xact) return;
+      _.each(schedule, function(op3, idx3) {
+        if (idx3 <= idx2) return;
+        if (op3.op != "R" || op3.obj != op1.obj || op3.xact == op2.xact) return;
+        var msg = idx1 + "," + idx2 + "," + idx3 + " on " + op1.obj;
+        rwconflicts.push(msg)
+      });
+    });
+  });
+ 
   return {
     rw: {
       name: "RW Unrepeatable Reads",
