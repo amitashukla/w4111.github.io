@@ -47,6 +47,13 @@
     function log(base, y) {
       return Math.log(y) / Math.log(base);
     }
+    function getheight(fanout, n)  {
+      var h = 1;
+      while (h * fanout < n) {
+        h++;
+      }
+      return h;
+    }
 
     function solve(tables, stats) {
 
@@ -128,14 +135,14 @@
         t.hashCost = 1;
       }
       if (t.ptree) {
-        var height = Math.ceil(log(desperpage, t.npages));
+        var height = Math.ceil(getheight(desperpage, t.npages));
         console.log(desperpage)
         console.log(t.npages)
         console.log(height);
         t.ptreeCost = height + 1;
       }
       if (t.stree) {
-        var height = Math.ceil(log(desperpage, Math.ceil(t.card/desperpage)));
+        var height = Math.ceil(getheight(desperpage, Math.ceil(t.card/desperpage)));
         t.streeCost = height + 1 + 1;
       }
     }
