@@ -49,7 +49,7 @@
     }
     function getheight(fanout, n)  {
       var h = 1;
-      while (h * fanout < n) {
+      while (Math.pow(fanout, h) < n) {
         h++;
       }
       return h;
