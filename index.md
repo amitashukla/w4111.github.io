@@ -11,7 +11,7 @@ The goal of this class is two-fold. First, to introduce you to core database con
 
 #### Recent Announcements
 * Congrats to the following distinguished project 1 teams!  Winners recieve two Databass stickers; pick up from Professor Wu's OH.
-  * yh2825, sy2751 rz2436, kp2535 zw2497, pw2480 vtj2105, nfk2108 yy2792, ha2841, scp2152 bn2300, xz2732
+  * alm2263,  wt2271, rz2436, kp2535 zw2497, pw2480 vtj2105, nfk2108 yy2792, ha2841, scp2152 bn2300, xz2732
 * (11/29) Due to a mistake on our part, we have extended hw4 to 11/30 Fri 2:30 PM.
 * (11/28) Due to a mistake on our part, we have extended hw4 part2 to 11/30 Fri 2:30 PM.
 * (11/28) There are TWO Exam locations!!    You can bring a 1 page 8x11 cheat sheet, both sides.
